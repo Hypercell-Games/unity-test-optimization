@@ -799,7 +799,7 @@ PlayerSettings:
     PS5: TextMeshPro
     QNX: TextMeshPro
     Stadia: TextMeshPro
-    Standalone: TextMeshPro
+    Standalone: TextMeshPro;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED;RH_SerializedDictionary
     VisionOS: TextMeshPro
     WebGL: TextMeshPro
     XboxOne: TextMeshPro
