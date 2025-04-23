@@ -2233,7 +2233,6 @@ GameObject:
   - component: {fileID: 4359161458629642910}
   - component: {fileID: 4359161458629642911}
   - component: {fileID: 129840335022597747}
-  - component: {fileID: 9214183259617314185}
   m_Layer: 5
   m_Name: GameScreen
   m_TagString: Untagged
@@ -2306,19 +2305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 6138048842262298555}
---- !u!114 &9214183259617314185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4359161458629642905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63105213558468946a50106c68ca2e91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _button: {fileID: 0}
 --- !u!1 &4359161458700619191
 GameObject:
   m_ObjectHideFlags: 0

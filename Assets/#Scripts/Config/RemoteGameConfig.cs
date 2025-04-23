@@ -6,22 +6,7 @@ using Unpuzzle;
 [Serializable]
 public class GameConfig : HyperKitConfig
 {
-    public PinOutLevelConfig[] levelList =
-    {
-        new() { name = "LvL_1", moves = 45 }, new() { name = "LvL_2", moves = 0 },
-        new() { name = "LvL_3", moves = 0 }, new() { name = "LvL_4", moves = 0 },
-        new() { name = "LvL_5", moves = 0 }, new() { name = "LvL_6", moves = 0 },
-        new() { name = "LvL_7", moves = 0 }, new() { name = "LvL_8", moves = 0 },
-        new() { name = "LvL_9", moves = 0 }, new() { name = "LvL_10", moves = 0 },
-        new() { name = "LvL_11", moves = 0 }, new() { name = "LvL_12", moves = 0 },
-        new() { name = "LvL_13", moves = 0 }, new() { name = "LvL_14", moves = 0 },
-        new() { name = "LvL_15", moves = 0 }, new() { name = "LvL_16", moves = 0 },
-        new() { name = "LvL_17", moves = 0 }, new() { name = "LvL_18", moves = 0 },
-        new() { name = "LvL_19", moves = 0 }, new() { name = "LvL_20", moves = 0 },
-        new() { name = "LvL_21", moves = 0 }, new() { name = "LvL_22", moves = 0 },
-        new() { name = "LvL_23", moves = 0 }, new() { name = "LvL_24", moves = 0 },
-        new() { name = "LvL_25", moves = 0 }
-    };
+    public PinOutLevelConfig[] levelList = {};
 
     public float speedToHide = 80f;
     public float timeToPinOut = 0.5f;
@@ -63,9 +48,6 @@ public class GameConfig : HyperKitConfig
     public float hintWhenPlayerStuckDelay = 5f;
     public float hintWhenPlayerStuckScale = 1.05f;
     public bool defaultSettingVibration = true;
-    public bool defaultSettingSound = true;
-    public bool defaultSettingMusic;
-    public int startShowNotificationsAtLevel = 4;
     public float fireTriggerSize = 10f;
     public float defaultDpi = 460f;
     public float tapMaxZone = 5f;
@@ -73,8 +55,6 @@ public class GameConfig : HyperKitConfig
     public float zoomSensivity = 1f;
     public float swipeSensivity = 3f;
     public bool cameraRotationRalativeLevel;
-    public float tutorDelay = 6f;
-    public bool hintEnabled = true;
     public bool gameTimerStartAfterMove;
     public float fogDistanceStart = 10f;
     public float fogDistanceEnd = 20f;
@@ -103,7 +83,7 @@ public class GameConfig : HyperKitConfig
     public bool showInterAtLevelComplete = true;
     public bool showInterAtLevelCompleteChallenge = true;
     public bool showInterAtLevelCompleteBoss = true;
-    public string supportEmail;
+
     public static GameConfig RemoteConfig => HyperKit.Data.GetCustomConfig<GameConfig>();
     public float secondStepHookCastRadius => 3f;
 
