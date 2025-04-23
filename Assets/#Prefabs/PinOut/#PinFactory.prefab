@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &410804177318293727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 410804177318293726}
+  - component: {fileID: 410804177318293721}
+  m_Layer: 0
+  m_Name: '#PinFactory'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &410804177318293726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410804177318293727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410804177318293721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410804177318293727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42793a8069b638246a320f89bf00fa5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pins:
+  - {fileID: 5603233136329669995, guid: 82715d0eff09548b4a2741e6eb8d3bf9, type: 3}
+  - {fileID: 5603233136329669995, guid: 2d294f286c5f342d39de6620cdc50102, type: 3}
+  - {fileID: 7080078660533820191, guid: 06b8e01e77ce2c243a5af5b029f39262, type: 3}
+  - {fileID: 5603233136329669995, guid: 25cd6ac4062ad4604b8185bfc0f9f348, type: 3}
+  - {fileID: 5603233136329669995, guid: 43ac2c0f75ce14bcaa3c5ac04dc42ee9, type: 3}
+  - {fileID: 5603233136329669995, guid: 09afdc73296782b4298469273cb13ece, type: 3}
+  - {fileID: 6716034919795033629, guid: b8905d10e12e2934f84ee8beff1c3bea, type: 3}
+  - {fileID: 4279121034762115364, guid: 830a8fac9317fb343aca136638196c05, type: 3}
+  - {fileID: 7080078660533820191, guid: 0c280eb0547982748a46d844653ccc38, type: 3}
+  - {fileID: 5603233136329669995, guid: 429d1ecd67bd7e64cbc37185e7209d23, type: 3}
+  - {fileID: 5603233136329669995, guid: 4e67371fafe79c740ac10932fc124f70, type: 3}
+  - {fileID: 7206839042075900584, guid: 9f3d449728f92f14194752c8955b6732, type: 3}
+  _iceBLockController:
+  - {fileID: 5692682907457791018, guid: f4acfa9a32401764c9e550df44811736, type: 3}
+  - {fileID: 5692682907457791018, guid: 2628e394f3638e64babc453aaab71439, type: 3}
+  _pinBoltPlank: {fileID: 7164206405871907452, guid: e026776ceda185546a73565cc70bc4f3, type: 3}

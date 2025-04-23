@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5889353034513439031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5889353034513439029}
+  - component: {fileID: 5889353034513439030}
+  m_Layer: 0
+  m_Name: ColorHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5889353034513439029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889353034513439031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -107.642914, y: -104.93858, z: -7.1642375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5889353034513439030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5889353034513439031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ac289e059684c4f8578a02cbf060e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _touchColor: {r: 1, g: 0.2679245, b: 0.43133026, a: 1}
+  _pinColors:
+  - _colorId: 0
+    _primaryColor: {r: 0.58431375, g: 1, b: 0.56078434, a: 1}
+    _selfShadowColor: {r: 0.22352941, g: 0.59607846, b: 0.003921569, a: 1}
+    _FalloffColor: {r: 0.8666667, g: 0.9882353, b: 0.02745098, a: 1}
+    _outlineColor: {r: 0.17254902, g: 0.5176471, b: 0.007843138, a: 1}
+    _secondaryColor: {r: 0.990566, g: 0.9787914, b: 0.6765753, a: 1}
+  - _colorId: 1
+    _primaryColor: {r: 0.56078434, g: 0.7647059, b: 1, a: 1}
+    _selfShadowColor: {r: 0.03529412, g: 0.32941177, b: 0.85882354, a: 1}
+    _FalloffColor: {r: 0.02745098, g: 0.63529414, b: 0.9882353, a: 1}
+    _outlineColor: {r: 0.007843138, g: 0.0627451, b: 0.5176471, a: 1}
+    _secondaryColor: {r: 0.7396226, g: 0.9704536, b: 1, a: 1}
+  - _colorId: 2
+    _primaryColor: {r: 1, g: 0.654902, b: 0.9137255, a: 1}
+    _selfShadowColor: {r: 0.81960785, g: 0.3764706, b: 0.627451, a: 1}
+    _FalloffColor: {r: 0.9882353, g: 0.02745098, b: 0.85882354, a: 1}
+    _outlineColor: {r: 0.59607846, g: 0, b: 0.39215687, a: 1}
+    _secondaryColor: {r: 0.95932955, g: 0.76452476, b: 0.9716981, a: 1}
+  - _colorId: 3
+    _primaryColor: {r: 0.95686275, g: 1, b: 0.4117647, a: 1}
+    _selfShadowColor: {r: 0.9137255, g: 0.78039217, b: 0, a: 1}
+    _FalloffColor: {r: 0.9882353, g: 0.7529412, b: 0.02745098, a: 1}
+    _outlineColor: {r: 0.6313726, g: 0.5803922, b: 0, a: 1}
+    _secondaryColor: {r: 0.80740476, g: 0.8093533, b: 0.990566, a: 1}
+  - _colorId: 4
+    _primaryColor: {r: 0.34509805, g: 1, b: 0.9764706, a: 1}
+    _selfShadowColor: {r: 0.41960785, g: 0.61960787, b: 0.93333334, a: 1}
+    _FalloffColor: {r: 0.02745098, g: 0.78431374, b: 0.9882353, a: 1}
+    _outlineColor: {r: 0.003921569, g: 0.3764706, b: 0.58431375, a: 1}
+    _secondaryColor: {r: 0.8095476, g: 1, b: 0.7773585, a: 1}
+  - _colorId: 5
+    _primaryColor: {r: 1, g: 0.7411765, b: 0, a: 1}
+    _selfShadowColor: {r: 0.93333334, g: 0.4627451, b: 0.047058824, a: 1}
+    _FalloffColor: {r: 0.9882353, g: 0.7882353, b: 0.02745098, a: 1}
+    _outlineColor: {r: 0.5176471, g: 0.23137255, b: 0.007843138, a: 1}
+    _secondaryColor: {r: 0.86142904, g: 1, b: 0.68301886, a: 1}
+  - _colorId: 6
+    _primaryColor: {r: 0.56078434, g: 1, b: 0.8156863, a: 1}
+    _selfShadowColor: {r: 0.003921569, g: 0.59607846, b: 0.3647059, a: 1}
+    _FalloffColor: {r: 0.02745098, g: 0.9882353, b: 0.72156864, a: 1}
+    _outlineColor: {r: 0.007843138, g: 0.5176471, b: 0.29411766, a: 1}
+    _secondaryColor: {r: 0.9317639, g: 0.86226416, b: 1, a: 1}
+  - _colorId: 7
+    _primaryColor: {r: 0.7764706, g: 0.56078434, b: 1, a: 1}
+    _selfShadowColor: {r: 0.7019608, g: 0.45882353, b: 0.8784314, a: 1}
+    _FalloffColor: {r: 0.5686275, g: 0.02745098, b: 0.9882353, a: 1}
+    _outlineColor: {r: 0.2901961, g: 0.007843138, b: 0.5176471, a: 1}
+    _secondaryColor: {r: 0.73264503, g: 0.85226053, b: 0.990566, a: 1}
+  _pinHandleColor:
+    _colorId: 0
+    _primaryColor: {r: 1, g: 1, b: 1, a: 1}
+    _selfShadowColor: {r: 0.6784314, g: 0.67058825, b: 0.8117648, a: 1}
+    _FalloffColor: {r: 1, g: 1, b: 1, a: 1}
+    _outlineColor: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
+    _secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  _starHandleColor:
+    _colorId: 0
+    _primaryColor: {r: 1, g: 0.2509804, b: 0.29411766, a: 1}
+    _selfShadowColor: {r: 0.6784314, g: 0.5137255, b: 0.41176474, a: 1}
+    _FalloffColor: {r: 1, g: 1, b: 1, a: 1}
+    _outlineColor: {r: 0.6039216, g: 0, b: 0.27058825, a: 1}
+    _secondaryColor: {r: 1, g: 0.2509804, b: 0.29411766, a: 1}
+  _pinMaterials:
+  - _materialId: 0
+    _material: {fileID: 2100000, guid: 7909facd4630bd04aa1d1984596360d1, type: 2}
+    _alpha: 1
+    _pinColors: []
+    _needUvCorrection: 0
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 1ae1b508120cd2f4ea661ba905309288, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 1ae1b508120cd2f4ea661ba905309288, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 1
+    _material: {fileID: 2100000, guid: a45a83d0a64015049b3043b2c69159c1, type: 2}
+    _alpha: 0.1411765
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.069780216, g: 0.4056604, b: 0.013011721, a: 1}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.17254902, g: 0.5176471, b: 0.007843138, a: 1}
+      _secondaryColor: {r: 0.8095476, g: 1, b: 0.7773585, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 0.16313636, g: 0.23037973, b: 0.8867924, a: 0.1411765}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.024670675, g: 0.030730948, b: 0.5943396, a: 1}
+      _secondaryColor: {r: 0.80740476, g: 0.8093533, b: 0.990566, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.54241866, g: 0.13616945, b: 0.5660378, a: 0.1411765}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.5499859, g: 0, b: 0.5849056, a: 1}
+      _secondaryColor: {r: 0.95932955, g: 0.76452476, b: 0.9716981, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.6792453, g: 0.50682145, b: 0, a: 1}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 1, g: 0.88550174, b: 0, a: 1}
+      _secondaryColor: {r: 0.990566, g: 0.9787914, b: 0.6765753, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 0.02002491, g: 0.45285487, b: 0.4716981, a: 0.1411765}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.019063683, g: 0.52906, b: 0.5943396, a: 1}
+      _secondaryColor: {r: 0.7396226, g: 0.9704536, b: 1, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 0.9056604, g: 0.6125427, b: 0.11534355, a: 0.1411765}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 1, g: 0.88550174, b: 0, a: 1}
+      _secondaryColor: {r: 0.73264503, g: 0.85226053, b: 0.990566, a: 1}
+    - _colorId: 6
+      _primaryColor: {r: 0.17984512, g: 0.3207547, b: 0, a: 1}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.33982885, g: 0.6037736, b: 0, a: 1}
+      _secondaryColor: {r: 0.86142904, g: 1, b: 0.68301886, a: 1}
+    - _colorId: 7
+      _primaryColor: {r: 0.17653444, g: 0, b: 0.3490566, a: 1}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 0}
+      _outlineColor: {r: 0.31417692, g: 0, b: 0.6226415, a: 1}
+      _secondaryColor: {r: 0.9317639, g: 0.86226416, b: 1, a: 1}
+    _needUvCorrection: 0
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: fd7b6297f338c01458d223b77879ef68, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: fd7b6297f338c01458d223b77879ef68, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 2
+    _material: {fileID: 2100000, guid: 6837ba2d0ead3ca4ea20e9972b83cbfc, type: 2}
+    _alpha: 0.2117647
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.78431374, g: 0.5882353, b: 0.24705882, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6981132, g: 0.5311334, b: 0.4241367, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 0.33962262, g: 0.07464234, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4716981, g: 0.30567333, b: 0.26877892, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.38679248, g: 0.030042134, b: 0, a: 1}
+      _selfShadowColor: {r: 0.5471698, g: 0.18386501, b: 0, a: 1}
+      _FalloffColor: {r: 0.3584906, g: 0.076656684, b: 0, a: 1}
+      _outlineColor: {r: 0.49056602, g: 0.20828266, b: 0.1638305, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.5188679, g: 0.23055781, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.5849056, g: 0.33930776, b: 0.24499819, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 0.3679245, g: 0.15547702, b: 0.08469205, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6132076, g: 0.39216137, b: 0.251068, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 1, g: 0.38437617, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.735849, g: 0.4312038, b: 0.30128157, a: 1}
+      _secondaryColor: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
+    _needUvCorrection: 0
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 1ae1b508120cd2f4ea661ba905309288, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 1ae1b508120cd2f4ea661ba905309288, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 3
+    _material: {fileID: 2100000, guid: 3ae98694a7de2864cb780bd8cbe93889, type: 2}
+    _alpha: 1
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.14923823, g: 0.7075472, b: 0.056737285, a: 1}
+      _selfShadowColor: {r: 0.12615699, g: 0.764151, b: 0.15751682, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.068197325, g: 0.4716981, b: 0, a: 1}
+      _secondaryColor: {r: 0.3529412, g: 0.7529412, b: 0.69411767, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 0, g: 0.65234834, b: 0.735849, a: 1}
+      _selfShadowColor: {r: 0.3977394, g: 0.40268993, b: 0.7735849, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0, g: 0.4914694, b: 0.5566038, a: 1}
+      _secondaryColor: {r: 0.1254902, g: 0.7647059, b: 0.15686275, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.8200507, g: 0.21462265, b: 0.8584906, a: 1}
+      _selfShadowColor: {r: 0.9245283, g: 0.17007834, b: 0.7385744, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.5078857, g: 0.04819329, b: 0.5377358, a: 1}
+      _secondaryColor: {r: 0, g: 0.49019608, b: 0.5568628, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.754717, g: 0.6686083, b: 0, a: 1}
+      _selfShadowColor: {r: 1, g: 0.8028592, b: 0.5613208, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.5377358, g: 0.47612026, b: 0, a: 1}
+      _secondaryColor: {r: 0.9254902, g: 0.16862746, b: 0.7372549, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 0.2612019, g: 0.13705944, b: 0.8301887, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.16677071, g: 0.0744927, b: 0.5849056, a: 1}
+      _secondaryColor: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 0.8113208, g: 0.2802512, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.4811321, g: 0.16502598, b: 0, a: 1}
+      _secondaryColor: {r: 1, g: 0.8039216, b: 0.56078434, a: 1}
+    - _colorId: 6
+      _primaryColor: {r: 0.054111768, g: 0.6037736, b: 0.3416723, a: 1}
+      _selfShadowColor: {r: 0.35243857, g: 0.754717, b: 0.69254774, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.0057404665, g: 0.4056604, b: 0.21427014, a: 1}
+      _secondaryColor: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
+    - _colorId: 7
+      _primaryColor: {r: 0.8773585, g: 0.16140087, b: 0.30656177, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      _outlineColor: {r: 0.5283019, g: 0.037379846, b: 0.13663723, a: 1}
+      _secondaryColor: {r: 0.8666667, g: 0.8666667, b: 0.8666667, a: 1}
+    _needUvCorrection: 1
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 4
+    _material: {fileID: 2100000, guid: 0b7b4d1321df720409c5531b9b9a4423, type: 2}
+    _alpha: 1
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.084865704, g: 0.5754717, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.08627451, g: 0.5764706, b: 0, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 1
+      _primaryColor: {r: 0, g: 0.011662006, b: 1, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.011764707, b: 1, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 2
+      _primaryColor: {r: 1, g: 0, b: 0.7160444, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.5754717, g: 0, b: 0.4129856, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 3
+      _primaryColor: {r: 1, g: 0, b: 0.033639908, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.5660378, g: 0.0026699959, b: 0.022553798, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 4
+      _primaryColor: {r: 0, g: 0.4705882, b: 1, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.47058827, b: 1, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 5
+      _primaryColor: {r: 1, g: 0.56373507, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6981132, g: 0.39422864, b: 0, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 6
+      _primaryColor: {r: 0, g: 0.5, b: 0.24256933, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.5019608, b: 0.24313727, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    - _colorId: 7
+      _primaryColor: {r: 0.27400923, g: 0, b: 1, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.3281641, g: 0, b: 0.7264151, a: 1}
+      _secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+    _needUvCorrection: 1
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 5
+    _material: {fileID: 2100000, guid: 30382959130becf42bdd466ccaedb4b1, type: 2}
+    _alpha: 1
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.764151, g: 0.3178573, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4811321, g: 0.19985488, b: 0, a: 1}
+      _secondaryColor: {r: 0.8301887, g: 0.5784555, b: 0, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 1, g: 0.844444, b: 0.1273585, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6037736, g: 0.4954734, b: 0, a: 1}
+      _secondaryColor: {r: 0.8018868, g: 0.66828656, b: 0.35933605, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.5943396, g: 0.22451769, b: 0.15979885, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4433962, g: 0.108663335, b: 0.05228728, a: 1}
+      _secondaryColor: {r: 0.8301887, g: 0.5784555, b: 0, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.7830189, g: 0.4624745, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4433962, g: 0.26160374, b: 0, a: 1}
+      _secondaryColor: {r: 0.8301887, g: 0.5784555, b: 0, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 0.78431374, g: 0.59088165, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4716981, g: 0.35613206, b: 0, a: 1}
+      _secondaryColor: {r: 0.7264151, g: 0.60425943, b: 0, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 0.6037736, g: 0.39299506, b: 0.093983635, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.3584906, g: 0.2095791, b: 0, a: 1}
+      _secondaryColor: {r: 0.6698113, g: 0.51243305, b: 0.1484959, a: 1}
+    - _colorId: 6
+      _primaryColor: {r: 0.4528302, g: 0.31883943, b: 0.1260235, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.3301887, g: 0.21215694, b: 0.042052336, a: 1}
+      _secondaryColor: {r: 0.6981132, g: 0.5267995, b: 0.31941974, a: 1}
+    - _colorId: 7
+      _primaryColor: {r: 1, g: 0.8085377, b: 0.5330188, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.4716981, g: 0.3003738, b: 0.05562477, a: 1}
+      _secondaryColor: {r: 0.6698113, g: 0.65020627, b: 0.38229796, a: 1}
+    _needUvCorrection: 1
+    _secondaryColorEnabled: 1
+    _outlineShader: {fileID: 4800000, guid: 43aeace98ff5fb04abbb244dd25634c3, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 43aeace98ff5fb04abbb244dd25634c3, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 6
+    _material: {fileID: 2100000, guid: e2e0826f00468804689acd8b02718298, type: 2}
+    _alpha: 1
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.30242556, g: 0.6226415, b: 0.15566038, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.10853026, g: 0.3490566, b: 0, a: 1}
+      _secondaryColor: {r: 0.86142904, g: 1, b: 0.68301886, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 0, g: 0.096088834, b: 0.8392157, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.07604498, b: 0.6509434, a: 1}
+      _secondaryColor: {r: 0.990566, g: 0.9787914, b: 0.6765753, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.5660378, g: 0, b: 0.16315201, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.5660378, g: 0, b: 0.16315201, a: 1}
+      _secondaryColor: {r: 0.95932955, g: 0.76452476, b: 0.9716981, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.69803923, g: 0.48797593, b: 0.031372543, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6415094, g: 0.4377358, b: 0, a: 1}
+      _secondaryColor: {r: 0.73264503, g: 0.85226053, b: 0.990566, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 0, g: 0.47240782, b: 1, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.2663707, b: 0.5660378, a: 1}
+      _secondaryColor: {r: 0.9317639, g: 0.86226416, b: 1, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 0.8396226, g: 0.27203834, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6981132, g: 0.22509259, b: 0, a: 1}
+      _secondaryColor: {r: 0.8095476, g: 1, b: 0.7773585, a: 1}
+    - _colorId: 6
+      _primaryColor: {r: 0, g: 0.49056602, b: 0.18858288, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0, g: 0.3490566, b: 0.13403776, a: 1}
+      _secondaryColor: {r: 0.7396226, g: 0.9704536, b: 1, a: 1}
+    - _colorId: 7
+      _primaryColor: {r: 0.22167921, g: 0, b: 1, a: 1}
+      _selfShadowColor: {r: 0, g: 0, b: 0, a: 0}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.10332961, g: 0, b: 0.46226418, a: 1}
+      _secondaryColor: {r: 0.80740476, g: 0.8093533, b: 0.990566, a: 1}
+    _needUvCorrection: 1
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  - _materialId: 7
+    _material: {fileID: 2100000, guid: 085aee658f6fb82489311668dd5caea4, type: 2}
+    _alpha: 1
+    _pinColors:
+    - _colorId: 0
+      _primaryColor: {r: 0.14710677, g: 0.6415094, b: 0.06354574, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.08019232, g: 0.4339623, b: 0.01842292, a: 1}
+      _secondaryColor: {r: 0.9317639, g: 0.86226416, b: 1, a: 1}
+    - _colorId: 1
+      _primaryColor: {r: 0.13493413, g: 0, b: 0.5566038, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.13333334, g: 0, b: 0.5568628, a: 1}
+      _secondaryColor: {r: 0.8095476, g: 1, b: 0.7773585, a: 1}
+    - _colorId: 2
+      _primaryColor: {r: 0.8113208, g: 0.049750824, b: 0.3286359, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6698113, g: 0.034754362, b: 0.26717198, a: 1}
+      _secondaryColor: {r: 0.80740476, g: 0.8093533, b: 0.990566, a: 1}
+    - _colorId: 3
+      _primaryColor: {r: 0.8207547, g: 0.32350916, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.6792453, g: 0.27623275, b: 0.016019935, a: 1}
+      _secondaryColor: {r: 0.95932955, g: 0.76452476, b: 0.9716981, a: 1}
+    - _colorId: 4
+      _primaryColor: {r: 1, g: 0.7411765, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.5176471, g: 0.23137257, b: 0.007843138, a: 1}
+      _secondaryColor: {r: 0.990566, g: 0.9787914, b: 0.6765753, a: 1}
+    - _colorId: 5
+      _primaryColor: {r: 0.39500013, g: 0.6415094, b: 0, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.26725727, g: 0.4339623, b: 0, a: 1}
+      _secondaryColor: {r: 0.73264503, g: 0.85226053, b: 0.990566, a: 1}
+    - _colorId: 6
+      _primaryColor: {r: 0.06274508, g: 0.49870273, b: 0.6431373, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.021226406, g: 0.3803066, b: 0.5, a: 1}
+      _secondaryColor: {r: 0.86142904, g: 1, b: 0.68301886, a: 1}
+    - _colorId: 7
+      _primaryColor: {r: 0.511178, g: 0.05098041, b: 0.8117647, a: 1}
+      _selfShadowColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
+      _FalloffColor: {r: 0, g: 0, b: 0, a: 1}
+      _outlineColor: {r: 0.38244954, g: 0.031817377, b: 0.6132076, a: 1}
+      _secondaryColor: {r: 0.7396226, g: 0.9704536, b: 1, a: 1}
+    _needUvCorrection: 1
+    _secondaryColorEnabled: 0
+    _outlineShader: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _outlineVariant: {fileID: 4800000, guid: 6a623897e6e02ce4d9f1326bb8ae882f, type: 3}
+    _inActiveMaterial: {fileID: 2100000, guid: c3a6d33fa3cd2e348896142fa8359599, type: 2}
+  _outlinePinHandleMaterial: {fileID: 2100000, guid: 3761398064e34444fb6a4d010d634e95, type: 2}
+  _outlineStarMaterial: {fileID: 2100000, guid: 5d103089a96ccfb428cf869e05cdee90, type: 2}
+  _defaultPinMaterial: {fileID: 2100000, guid: 3761398064e34444fb6a4d010d634e95, type: 2}
+  _defaultStarMaterial: {fileID: 2100000, guid: 5d103089a96ccfb428cf869e05cdee90, type: 2}
+  _activatorHandleMain: {fileID: 2100000, guid: 2303cf43c6cb663439262cd6777cfea2, type: 2}
+  _activatorHandleSecond: {fileID: 2100000, guid: de0305085c04f28499e894a344464871, type: 2}
+  _voidStateMaterial: {fileID: 2100000, guid: 1a9511557be80e74facb4d9349e26c05, type: 2}
+  _transparentMaterial: {fileID: 2100000, guid: 37f6eb27acc85094684d9b08d39d23c9, type: 2}
+  _boltPinMaterial: {fileID: 2100000, guid: 8b00f0138103cdd458d863159910f577, type: 2}
+  _fireMaterial: {fileID: 2100000, guid: 9baa1102a3c6c994eaca1d096da638a7, type: 2}
+  _fireShader: {fileID: 4800000, guid: f6d5f253a6014aa48b3c1bcf8e4b08f4, type: 3}

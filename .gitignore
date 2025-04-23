@@ -1,0 +1,46 @@
+# =============== #
+# Builds          #
+# =============== #
+*.apk
+/[Bb]uilds/
+
+# =============== #
+# Unity Files     #
+# =============== #
+/Library/
+/UserSettings/
+/Temp/
+/Logs/
+/Assets/Plugins/Editor/
+/Assets/Plugins/Editor.meta
+/obj
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+.idea/
+.vs/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.sln
+*.csproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db.meta
+Assembly-CSharp.csproj.DotSettings

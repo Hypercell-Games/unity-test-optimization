@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64083a5f526f534581273dbeabb5de4, type: 3}
+  m_Name: CounterText ColorThemeTextSwitcher
+  m_EditorClassIdentifier: 
+  _textThemes:
+  - colorThemeType: 0
+    color: {r: 0.16078432, g: 0.19607845, b: 0.25490198, a: 1}
+  - colorThemeType: 1
+    color: {r: 0.8862746, g: 0.909804, b: 0.94117653, a: 1}

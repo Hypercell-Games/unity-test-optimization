@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb38f84bff7fef42b5955ae8de64e6f, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  <SkinsConfig>k__BackingField: {fileID: 11400000, guid: 1ec3baa288aabc54bacafca418aa599e, type: 2}
+  <LevelsConfig>k__BackingField: {fileID: 11400000, guid: 6c8635d38607cd14e9389a3eb0a4a74f, type: 2}
+  <SoundsConfig>k__BackingField: {fileID: 0}
+  <LevelRacePlayersConfig>k__BackingField: {fileID: 11400000, guid: 4b458aeb8e828164ebc4441e4196f0ba, type: 2}
+  <AwardsConfig>k__BackingField:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  <LobbyTabBarAnimationSetting>k__BackingField: {fileID: 11400000, guid: 8aea421bd9dc13c4a9df8bd0fab78b4c, type: 2}
+  <SoftCurrency>k__BackingField: {fileID: 11400000, guid: 1582a40feef6e174c823d3b8f297ff20, type: 2}
+  <SelectedSkin>k__BackingField: {fileID: 11400000, guid: 2c8d6250c8cf2c64d93e9e8eaa0cbe0f, type: 2}
+  <KeysAmount>k__BackingField: {fileID: 11400000, guid: 58468289e558a9a4ab39816d26d538bc, type: 2}

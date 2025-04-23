@@ -1,0 +1,55 @@
+{
+  "adsBreakDelayShowing": 2,
+  "adsBreakDelayHide": 1,
+  "adsBreakeEnabled": true,
+  "androidAppURL": "",
+  "gameTimerStartAfterMove": true,
+  "minRateUsLevel": 6,
+  "juiceEffectEnable": true,
+  "juiceEffectColorFromOutline": false,
+  "timeRedEffect": 7,
+  "outlineVariant": true,
+  "cameraRotationRalativeLevel": true,
+  "showAdsAtLevel": 8,
+  "blockedShakeStrenght": 0.3,
+  "adsFadeScreenCloseMode": 1,
+  "scalePinRadius": 1,
+  "secondStepHookCastRadius": 2,
+  "defaultSettingMusic": true,
+  "zoomSensivity": 1,
+  "swipeSensivity": 3,
+  "levelList": [
+    {
+      "name": "LvL_1",
+      "moves": 10,
+      "time": 0,
+      "pinMaterialId": 0,
+      "isTarget": false,
+      "levelDifficulty": "Normal"
+    },
+    {
+      "name": "LvL_91_Corrected",
+      "moves": 105,
+      "time": 0,
+      "pinMaterialId": 0,
+      "isTarget": false,
+      "levelDifficulty": "Epic"
+    },
+    {
+      "name": "LvL_49_Corrected",
+      "moves": 109,
+      "time": 0,
+      "pinMaterialId": 0,
+      "isTarget": false,
+      "levelDifficulty": "Epic"
+    }
+  ],
+  "defaultDpi": 460,
+  "tapMaxZone": 30,
+  "maxZoom": 1500,
+  "tutorDelay": 10,
+  "speedToHide": 79,
+  "hintEnabled": true,
+  "hintShowOnlyFirst": false,
+  "timeToPinOut": 0.17
+}
